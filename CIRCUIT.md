@@ -1,20 +1,16 @@
-# ESP32 Reliability — Circuit Schematic
+# Mastering Arduino Boost Reliability And Efficiency — Circuit Notes
 
-- Course: Mastering Arduino: Boost Reliability and Efficiency
-- Author: Ashraf S A AlMadhoun
-- Link: https://www.udemy.com/course/arduino-improve-arduino-programs-reliability/?couponCode=JULYMAXDICOUNT
+| Signal | Suggested Pin | Notes |
+| --- | --- | --- |
+| Sensor Input | A0 / GPIO | Adjust according to the Arduino board you own. |
+| Actuator Output | D9 / PWM Pin | Use a transistor/driver for high-current loads. |
+| Status LED | D13 or onboard LED | Mirrors the runtime state for quick debugging. |
 
-## Connections
+## Wiring Checklist
 
-- LED at `GPIO2` for heartbeat visualization.
+1. Power rails first (5V / 3.3V and GND).
+2. Route sensor outputs to the analog/digital pin noted above.
+3. Add current-limiting resistors where appropriate.
+4. Double-check common grounds between modules and the development board.
 
-## Diagram (ASCII)
-
-```
- ESP32 GPIO2 -> LED (*)
-```
-
-## Purchase With Discount
-
-Get the course at a discounted price and learn reliability techniques — use the link above.
-
+Refer to the course lecture for the exact schematic; reuse these notes as a quick reference.
