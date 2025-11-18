@@ -6,6 +6,14 @@
  * Notes: Auto-generated metadata block (2025-11-18)
  */
 
+/*
+ * Course: Mastering Arduino Boost Reliability And Efficiency
+ * Platform: Arduino
+ * Author: Ashraf S A AlMadhoun
+ * Purpose: Auto-generated metadata block to document the learning goals.
+ * Notes: Auto-generated metadata block (2025-11-18)
+ */
+
 #include "freertos/FreeRTOS.h" // FreeRTOS
 #include "freertos/task.h" // Tasks
 #include "esp_log.h" // Logging
